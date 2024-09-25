@@ -1,0 +1,97 @@
+body {
+    background-color: #F8EDE3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: #C5705D;
+
+    text-align: center;
+}
+
+.photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+form {
+    background-color: #DFD3C3;
+    border: dotted black;
+    padding-left: 10px;
+}
+
+footer {
+    background-color: #D0B8A8;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2:hover {
+    background-color: #D0B8A8;
+}
+
+h3 {
+    font-size: medium;
+}
+
+.event {
+    font-size: 17px;
+}
+
+.date {
+
+    font-size: 17px;
+}
+
+.time {
+    font-size: 17px;
+}
+
+.loc {
+    font-size: 17px;
+}
+
+.desc {
+    font-size: 17px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+button {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #222222;
+    transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkittransform 0.1s ease 0s, transform 0.1s ease 0s;
+    background: #fff;
+    color: #222222;
+}
+
+button:hover {
+    border-color: #000000;
+    background: #C5705D;
+}
+
+nav {
+    text-align: center;
+}
+
+#card1 {
+    margin-left: 2%;
+}
